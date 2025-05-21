@@ -1,0 +1,17 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Custom global styles if needed, otherwise Tailwind handles most */
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif; /* Using Inter font */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @apply bg-gray-100 p-4; /* Apply basic background and padding using Tailwind */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
