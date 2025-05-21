@@ -11,7 +11,7 @@ function LoginForm() {
   const { login } = useAuth(); // Get login function from AuthContext
 
   // TODO: Replace with your actual backend API base URL
-  const API_BASE_URL = "http://localhost:3001/api";
+  const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
 
   const handleSubmit = async (e) => {
     e.preventDefault(); // Prevent default form submission

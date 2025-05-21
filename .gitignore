@@ -1,5 +1,7 @@
     # Node.js
     node_modules/
+    backend/.env  # Remember to create your own .env file after cloning the repo
+    frontend/.env # Remember to create your own .env file after cloning the repo
     .env
 
     # React
